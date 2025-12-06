@@ -27,7 +27,7 @@ void Setup(AlxWindow* w){
 	tv = TransformedView_New((Vec2){ GetHeight(),GetHeight() });
 	TransformedView_Zoom(&tv,(Vec2){ 0.1f,0.1f });
 	//TransformedView_Offset(&tv,(Vec2){ -0.5f,0.0f });
-	TransformedView_Focus(&tv,&mario.r.p);
+	TransformedView_Focus(&tv,&mario.r.p,mario.r.d);
 
 	world = World_Make("./data/World/Level1.txt",World_Std_Mapper,(Animation[]){
 		Animation_Single("./data/Blocks/Void.png"),

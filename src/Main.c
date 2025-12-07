@@ -130,7 +130,7 @@ void Setup(AlxWindow* w){
 	// 	Sprite_Load("./data/Sandra/Sandra0_l.png"),
 	// 	Sprite_Load("./data/Sandra/Sandra0_r.png"),
 	// 	Sprite_Load("./data/Sandra/Sandra0_l.png"),
-	// 	Sprite_None()
+	// 	Sprite_Null()
 	// });
 
 	mario = Figure_Make((Vec2){ 1.0f,25.0f },(Vec2){ 0.9f,0.9f },(Sprite[]){
@@ -148,7 +148,7 @@ void Setup(AlxWindow* w){
 		Sprite_Load("./data/Mario/Mario5_r.png"),
 		Sprite_Load("./data/Mario/Mario6_l.png"),
 		Sprite_Load("./data/Mario/Mario6_r.png"),
-		Sprite_None()
+		Sprite_Null()
 	});
 }
 void Update(AlxWindow* w){
